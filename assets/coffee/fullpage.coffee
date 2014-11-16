@@ -1,11 +1,7 @@
-
-
-$('#fullpage').fullpage;
-
-
-/*	API https://github.com/alvarotrigo/fullPage.js#fullpagejs
+$('#fullpage').fullpage
+###	API https://github.com/alvarotrigo/fullPage.js#fullpagejs
 	
-	 * Navigation
+	# Navigation
 	menu: false
 	anchors: ['firstSlide', 'secondSlide']
 	navigation: false
@@ -14,7 +10,7 @@ $('#fullpage').fullpage;
 	slidesNavigation: true
 	slidesNavPosition: 'bottom',
 
-	 * Scrolling
+	# Scrolling
 	css3: true
 	scrollingSpeed: 700
 	autoScrolling: true
@@ -30,11 +26,11 @@ $('#fullpage').fullpage;
 	touchSensitivity: 15
 	normalScrollElementTouchThreshold: 5
 
-	 * Accessibility
+	# Accessibility
 	keyboardScrolling: true
 	animateAnchor: true,
 
-	 * Design
+	# Design
 	verticalCentered: true
 	resize : true
 	sectionsColor : ['#ccc', '#fff']
@@ -43,11 +39,11 @@ $('#fullpage').fullpage;
 	fixedElements: '#header, .footer'
 	responsive: 0,
 
-	 * Custom selectors
+	# Custom selectors
 	sectionSelector: '.section'
 	slideSelector: '.slide',
 
-	 * events
+	# events
 	onLeave: (index, nextIndex, direction) -> 
 
 	afterLoad: (anchorLink, index) -> 
@@ -58,5 +54,6 @@ $('#fullpage').fullpage;
 
 	afterSlideLoad: (anchorLink, index, slideAnchor, slideIndex) -> 
 
-	onSlideLeave: (anchorLink, index, slideIndex, direction) ->
- */
+	onSlideLeave: (anchorLink, index, slideIndex, direction) -> 
+
+###
