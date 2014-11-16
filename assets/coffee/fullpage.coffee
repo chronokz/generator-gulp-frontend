@@ -1,4 +1,4 @@
-$('#fullpage').fullpage
+$('#fullpage').fullpage()
 ###	API https://github.com/alvarotrigo/fullPage.js#fullpagejs
 	
 	# Navigation
