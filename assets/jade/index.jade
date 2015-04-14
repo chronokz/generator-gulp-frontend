@@ -6,11 +6,35 @@ html(lang='ru')
 		include html/css
 	body
 		include block/header
-
-		h1(align="center")
-			i.fa.fa-heart
-			|  Wellcome
-			
+		.site-wrapper
+			.site-wrapper-inner
+				.cover-container
+					.masthead.clearfix
+						.inner
+							h3.masthead-brand
+								i.fa.fa-star 
+								|  Logotype
+							nav
+								ul.nav.masthead-nav
+									li.active
+										a(href='#') Home
+									li
+										a(href='#') Features
+									li
+										a(href='#') Contact
+					.inner.cover
+						h1.cover-heading Gulp Frontend Generator 
+							i.fa.fa-heart
+						p.lead
+							| Created new template for your site
+						p.lead
+							a.btn.btn-lg.btn-default(href='https://github.com/chronokz/generator-gulp-frontend') GitHub link
+					.mastfoot
+						.inner
+							p
+								| Developed by 
+								a(href='http://chrono.kz') chrono
+								| .
 
 
 		//- Body of site

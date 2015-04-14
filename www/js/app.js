@@ -1,7 +1,5 @@
 
 
-$('#fullpage').fullpage();
-
 
 /*	API https://github.com/alvarotrigo/fullPage.js#fullpagejs
 	
@@ -60,5 +58,6 @@ $('#fullpage').fullpage();
 
 	onSlideLeave: (anchorLink, index, slideIndex, direction) ->
  */
+
 
 
