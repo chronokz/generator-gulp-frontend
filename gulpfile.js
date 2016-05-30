@@ -9,7 +9,7 @@ var gulp = require('gulp'),
 gulp.task('jade', function() {
 	gulp.src('assets/jade/*.jade')
 		.pipe(jade({
-			pretty: true
+			pretty: '\t'
 		}))
 		.on('error', console.log)
 		.pipe(gulp.dest('www'));
